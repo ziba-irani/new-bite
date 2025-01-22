@@ -2,9 +2,9 @@
 
 **enjoy my new React project**
 
-![taskimg](https://github.com/user-attachments/assets/615c93e3-7acd-4558-8991-146110b92b0d)
+![taskimg](https://new-bite-w21j.vercel.app/)
 
-- [Demo Project](https://vercel.com/ziba-iranis-projects/new-bite-w21j)
+- [Demo Project](https://new-bite-w21j.vercel.app/)
 
 - Developed by ziba irani
 
