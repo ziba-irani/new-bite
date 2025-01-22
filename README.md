@@ -8,7 +8,7 @@
 
 - Developed by ziba irani
 
-- Technologies Used - TypeScript - React - MUI - Styled Components 
+- Technologies Used : TypeScript - React - Redux - Ant Design - Tailwind -Swiper.js - Framer motion - react-icon -   
 
 - Role - Frontend
 
