@@ -5,6 +5,8 @@
 ![Image](https://github.com/user-attachments/assets/7d811406-24c0-412b-862e-b74625aed9e1)
 
 - [Demo Project](https://new-bite-uo9k.vercel.app/)
+- /second
+- [Demo Project](https://new-bite-c89t.vercel.app/)
 
 - Developed by ziba irani
 
