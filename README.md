@@ -4,16 +4,7 @@
 
 ![Image](https://github.com/user-attachments/assets/7d811406-24c0-412b-862e-b74625aed9e1)
 
-- [Demo Project](https://new-bite-uo9k.vercel.app/)
-- /second
-- [Demo Project](https://new-bite-c89t.vercel.app/)
-- /third
-- [Demo Project](https://new-bite-uvk6.vercel.app/)
-- /forth
-- https://new-bite-445b.vercel.app/
-- fitft
-- https://new-bite-467h.vercel.app/
-
+- [Demo Project](https://new-bite-467h.vercel.app/)
 
 - Developed by ziba irani
 
