@@ -7,6 +7,9 @@
 - [Demo Project](https://new-bite-uo9k.vercel.app/)
 - /second
 - [Demo Project](https://new-bite-c89t.vercel.app/)
+- /third
+- [Demo Project](https://new-bite-uvk6.vercel.app/)
+
 
 - Developed by ziba irani
 
