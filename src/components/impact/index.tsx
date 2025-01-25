@@ -8,11 +8,11 @@ export default function BiteImpact() {
     <div className="w-full bg-bgColor">
       <div className="py-10 px-20">
         <div className="grid grid-cols-2 gap-10">
-          <div className="md:col-span-1  col-span-2 py-10 gap-7 flex flex-col justify-center w-4/5 order-2 md:order-1">
+          <div className="md:col-span-1  col-span-2 py-10 gap-7 flex flex-col justify-center w-full md:w-4/5 order-2 md:order-1">
             <Typography
               typeof="h1"
               children="Our Impact Report"
-              className="text-5xl leading-8 font-Lora"
+              className="md:text-5xl text-3xl leading-8 font-Lora"
             />
             <Typography
               typeof="p"
@@ -32,3 +32,4 @@ export default function BiteImpact() {
     </div>
   );
 }
+
