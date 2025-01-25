@@ -9,6 +9,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "../../store/store";
 import BagItem from "../../../customeComponents/bagItems/index";
 import { AiOutlineCloseSquare } from "react-icons/ai";
+import { IProductsModel } from "../../models";
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
@@ -35,12 +36,11 @@ export default function Header() {
 
   useEffect(() => {
     let total = 0;
-    products.map((item) => {
+    products.map((item: IProductsModel) => {
       total += item.count * item.price;
     });
     setTotal(total);
   }, [products]);
-
   return (
     <>
       <div className="sticky z-50 top-0 ">
@@ -132,11 +132,13 @@ export default function Header() {
               children="ABOUT"
               className="text-lg font-medium py-3 text-black  hover:text-xl hover:font-medium cursor-pointer"
               typeof="p"
+              onClick={handleShowAboutPage}
             />
             <Typography
               children="OUR IMPACT"
               className="text-lg font-medium py-3 text-black  hover:text-xl hover:font-medium cursor-pointer"
               typeof="p"
+              onClick={handleShowImpactPage}
             />
           </div>
         </div>
@@ -162,8 +164,8 @@ export default function Header() {
             />
           )}
           <div className="flex-col items-center gap-5 w-[500px] h-[80px]  divide-y-2 divide-black">
-            {products.map((item) => (
-              <BagItem item={item} key={item.id}/>
+            {products.map((item: IProductsModel) => (
+              <BagItem item={item} key={item.id} />
             ))}
             <div className="w-full flex items-center justify-between px-5 bg-greenColor ">
               <Typography
