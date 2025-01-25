@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="w-full bg-black text-white flex flex-col items-center justify-center py-5">
+    <div className="w-full bg-black text-white flex flex-col items-center justify-center py-5 md:px-0 px-3 text-center">
       <Typography className="text-white font-Lora text-base">
         A demo has been provided from
         <span className="text-greenColor px-3 decoration-transparent">
@@ -20,7 +20,7 @@ export default function Footer() {
         </span>
         I hope it was enjoyable for you
       </Typography>
-      <div className="flex items-center mt-2 gap-5">
+      <div className="flex flex-wrap justify-center mt-2 gap-3">
         <div className="flex items-center gap-1">
           <FaGithub size={20} className="text-white" />
           <Typography className="text-greenColor">
@@ -51,3 +51,4 @@ export default function Footer() {
     </div>
   );
 }
+
