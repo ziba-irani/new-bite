@@ -84,10 +84,10 @@ export default function BiteBetter() {
         <motion.div
           initial={{ x: -200 }}
           whileInView={{ x: 0 }}
-          transition={{ type: "tween", duration: 3 }} 
-          className="col-span-6 md:col-span-2 flex-col items-center justify-center z-40"
+          transition={{ type: "tween", duration: 3 }}
+          className="md:col-span-2 col-span-6 flex-col items-center justify-center z-40"
         >
-          <div className="w-full mx-auto flex-col p-5 items-center justify-center content-center">
+          <div className="w-full mx-auto  flex-col p-5 items-center justify-center content-center">
             {dataLeft.map((item) => (
               <CustomeCard
                 icon={item.icon}
@@ -103,8 +103,8 @@ export default function BiteBetter() {
         <motion.div
           initial={{ x: +200 }}
           whileInView={{ x: 0 }}
-          transition={{ type: "tween", duration: "3" }}
-          className="md:col-span-2 hidden z-40"
+          transition={{ type: "tween", duration: 3 }}
+          className="md:col-span-2 md:flex hidden z-40"
         >
           <div className="w-full flex-col p-5 items-center justify-center content-center">
             {dataRight.map((item) => (
@@ -121,3 +121,4 @@ export default function BiteBetter() {
     </div>
   );
 }
+
