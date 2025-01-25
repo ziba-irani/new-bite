@@ -163,7 +163,7 @@ export default function Header() {
               className="px-5 pt-2 py-5 border-b-2 border-black"
             />
           )}
-          <div className="flex-col items-center gap-5 w-[500px] h-[80px]  divide-y-2 divide-black">
+          <div className="flex-col items-center gap-5 w-[400px] h-[80px]  divide-y-2 divide-black">
             {products.map((item: IProductsModel) => (
               <BagItem item={item} key={item.id} />
             ))}
