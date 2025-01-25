@@ -1,14 +1,16 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import WelcomePage from "./components/welcome";
-import Shop from "./components/shop";
-import Header from "./components/welcome/header";
-import ProductPage from "../customeComponents/product-page/index";
 import { ToastContainer } from "react-toastify";
-import BiteImpact from "./components/impact/index.tsx";
-import AboutBite from "./components/about/index.tsx";
-import Footer from "./components/welcome/footer.tsx";
-
+import { lazy } from "react";
+const Header = lazy(() => import("./components/welcome/header.tsx"));
+const WelcomePage = lazy(() => import("./components/welcome"));
+const Shop = lazy(() => import("./components/shop"));
+const ProductPage = lazy(
+  () => import("../customeComponents/product-page/index")
+);
+const AboutBite = lazy(() => import("./components/about/index.tsx"));
+const BiteImpact = lazy(() => import("./components/impact/index.tsx"));
+const Footer = lazy(() => import("./components/welcome/footer.tsx"));
 function App() {
   return (
     <>
@@ -23,7 +25,7 @@ function App() {
           <Route element={<AboutBite />} path="/about" />
           <Route element={<BiteImpact />} path="/impact" />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </>
   );
