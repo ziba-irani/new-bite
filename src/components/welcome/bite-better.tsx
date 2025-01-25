@@ -84,7 +84,7 @@ export default function BiteBetter() {
         <motion.div
           initial={{ x: -200 }}
           whileInView={{ x: 0 }}
-          transition={{ type: "tween", duration: ".5" }}
+          transition={{ type: "tween", duration: "0.5" }}
           className="md:col-span-2 col-span-3 flex-col items-center justify-center z-40"
         >
           <div className="w-full mx-auto  flex-col p-5 items-center justify-center content-center">
@@ -103,7 +103,7 @@ export default function BiteBetter() {
         <motion.div
           initial={{ x: +200 }}
           whileInView={{ x: 0 }}
-          transition={{ type: "tween", duration: ".5" }}
+          transition={{ type: "tween", duration: "0.5" }}
           className="md:col-span-2 col-span-3 z-40"
         >
           <div className="w-full flex-col p-5 items-center justify-center content-center">
