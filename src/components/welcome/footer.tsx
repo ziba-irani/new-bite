@@ -12,8 +12,7 @@ export default function Footer() {
             href="https://bitetoothpastebits.com/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: '#ddf272' }}
-       
+            style={{ color: "#ddf272" }}
           >
             https://bitetoothpastebits.com/
           </a>
@@ -25,12 +24,12 @@ export default function Footer() {
           <FaGithub size={20} className="text-white" />
           <Typography className="text-greenColor">
             <a
-              href="https://github.com/ziba-irani/Bite"
+              href="https://github.com/ziba-irani/new-bite"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: '#ddf272' }}
+              style={{ color: "#ddf272" }}
             >
-              https://github.com/ziba-irani/Bite
+              https://github.com/ziba-irani/new-bite
             </a>
           </Typography>
         </div>
@@ -41,7 +40,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/ziba-irani-developr"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: '#ddf272' }}
+              style={{ color: "#ddf272" }}
             >
               https://www.linkedin.com/in/ziba-irani-developr{" "}
             </a>
@@ -51,4 +50,5 @@ export default function Footer() {
     </div>
   );
 }
+
 
