@@ -7,16 +7,16 @@ export default function AboutBite() {
       <Typography
         children="From the living room to Shark Tank to now."
         typeof="p"
-        className="pb-28 pt-36 md:text-6xl text-4xl font-semibold font-Lora w-1/2  mx-auto text-center "
+        className="pb-28 pt-36 md:text-6xl text-4xl font-semibold font-Lora md:w-1/2 w-3/4  mx-auto text-center "
       />
       <div className="px-10">
         <hr className="w-full h-[2px] bg-black" />
         <div className="grid grid-cols-2 ">
-          <div className="md:col-span-1 col-span-2 py-10 gap-7 flex flex-col w-4/5 order-2 md:order-1">
+          <div className="md:col-span-1 col-span-2 py-10 gap-7 flex flex-col md:w-4/5 w-full px-10 order-2 md:order-1">
             <Typography
               typeof="h3"
               children="As a former surf instructor, I used to spend all my time in the water."
-              className="text-4xl leading-8"
+              className="md:text-4xl text-3xl leading-8"
             />
             <Typography
               typeof="p"
@@ -58,3 +58,4 @@ export default function AboutBite() {
     </div>
   );
 }
+
